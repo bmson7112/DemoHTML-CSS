@@ -16,6 +16,11 @@ html{
 #header {
     background-color: black;
     height: 46px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
 
 #nav > li{
@@ -90,13 +95,19 @@ html{
     font-weight: bold;
 }
 #slider{
-    background-color:rgb(244, 243, 245);
-   height: 500px;
+    /* background-color:rgb(43, 204, 70); */
+   margin-top: 46px;
+   /* padding-top: 50%; */
+   position: relative;
 }
 
+.carousel slide{
+    loop: true; 
+}
    
 #content {
-
+    height: 1000px;
+    background-color:#ccc;
 }
 
 #footer {

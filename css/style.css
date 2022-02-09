@@ -101,7 +101,7 @@ html {
 } */
 
 #content {
-  height: 1000px;
+  /* height: 1000px; */
   background-color: #fff;
   /* text-align: center; */
 }
@@ -208,5 +208,22 @@ margin-left: 16px;
   
 }
 
+.contact-section {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px;
+}
+/* .contact-section .section-heading{
+  padding: 48px 0px 0px 0px;
+} */
+
+.map {
+  width: 100%;
+  margin-top: 50px;
+}
 #footer {
+  padding:64px 16px;
+  text-align: center;
+  opacity: 0.8;
 }
